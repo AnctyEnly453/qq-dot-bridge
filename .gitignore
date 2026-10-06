@@ -1,0 +1,23 @@
+# Runtime identity, private configuration and user data
+config.json
+*.local.json
+identity/
+state/
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite*
+*.db
+*.db-*
+.env
+.env.*
+*.log
+*.zip
+*.tar*
+# Build/runtime products
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store

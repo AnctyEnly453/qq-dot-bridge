@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "audience": "",
+  "client_key_id": "qq-client",
+  "server_key_id": "qq-server",
+  "self_id": "",
+  "allowed_privates": [],
+  "allowed_groups": [],
+  "listen_port": 17445,
+  "state_directory": "state/server",
+  "client_public_key_file": "identity/client-public.pem",
+  "server_private_key_file": "identity/server-private.pem",
+  "python": "python3",
+  "napcat": {
+    "container": "napcat",
+    "http_port": 3000,
+    "token_file": "identity/napcat-token",
+    "cache_mount": "",
+    "cache_container_path": "/app/.config/QQ"
+  },
+  "features": {"actions": false, "audio": false, "notices": false},
+  "client": {
+    "private_key_file": "identity/client-private.pem",
+    "state_directory": "state",
+    "require_https_proxy": true
+  }
+}
